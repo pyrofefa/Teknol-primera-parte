@@ -1,0 +1,19 @@
+<!--Vista contacto-->
+<ion-view view-title="Contacto">
+  <ion-content>
+          <form ng-controller="contacto" > 
+          <div class="list">
+            <label class="item item-input">
+              <input type="text" placeholder="Nombre" ng-model="nombre">
+            </label>
+            <label class="item item-input">
+              <input type="text" placeholder="Correo" ng-model="correo">
+            </label>
+            <label class="item item-input">
+              <textarea placeholder="Comentario" ng-model="comentario"></textarea>
+            </label>
+            <button class="button button-block button-positive" ng-click="enviar()">Enviar</button>
+          </div>
+        </form>
+	</ion-content>
+</ion-view>
